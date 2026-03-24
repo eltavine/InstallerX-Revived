@@ -343,7 +343,7 @@ fun MiuixThemeSettingsPage(
                         ) {
                             MiuixSwitchWidget(
                                 title = stringResource(R.string.theme_settings_hide_launcher_icon),
-                                description = stringResource(R.string.theme_settings_hide_launcher_icon_desc),
+                                description = stringResource(R.string.theme_settings_hide_launcher_icon_desc_recovery),
                                 checked = !uiState.showLauncherIcon,
                                 onCheckedChange = { newCheckedState ->
                                     if (newCheckedState) {

@@ -315,7 +315,7 @@ fun LegacyThemeSettingsPage(
                         SwitchWidget(
                             icon = AppIcons.BugReport,
                             title = stringResource(R.string.theme_settings_hide_launcher_icon),
-                            description = stringResource(R.string.theme_settings_hide_launcher_icon_desc),
+                            description = stringResource(R.string.theme_settings_hide_launcher_icon_desc_recovery),
                             checked = !uiState.showLauncherIcon,
                             isM3E = false,
                             onCheckedChange = { newCheckedState ->
