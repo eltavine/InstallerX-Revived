@@ -711,4 +711,8 @@
     <string name="lab_mi_island">小米超級島</string>
     <string name="lab_mi_island_desc">覆蓋全域通知樣式。 僅當應用授權器設定為 Shizuku 時可繞過系統簽名限制；Root 使用者在手動關閉系統簽名驗證後可直接開啟</string>
     <string name="app_version_info_format">%1$s %2$s %3$s (%4$s)</string>
+    <string name="app_language">應用程式語言</string>
+    <string name="app_language_follow_system">跟隨系統語言</string>
 </resources>
+
+

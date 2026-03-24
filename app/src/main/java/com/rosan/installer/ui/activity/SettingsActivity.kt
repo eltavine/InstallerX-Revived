@@ -7,9 +7,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.getValue
@@ -26,7 +26,7 @@ import org.koin.core.component.inject
 import androidx.compose.material3.Surface as Material3Surface
 import top.yukonga.miuix.kmp.basic.Surface as MiuixSurface
 
-class SettingsActivity : ComponentActivity(), KoinComponent {
+class SettingsActivity : AppCompatActivity(), KoinComponent {
     companion object {
         private const val LAUNCH_REQUEST_CODE = 1001
 
